@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #607D8B;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginbox {
+    width: 325px;
+    height: 440px;
+    background: #360040;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align:center;
+    font-size: 24px;
+}
+
+.frmLogin{
+    margin: 2px;
+}
+
+.loginbox p{
+    margin: 5px;
+}
+
+.loginbox input{
+    width: 100%;
+    padding-left:5px;
+}
+
+
+#txtBxPassword, #txtBxUserEmail {
+    border: none;
+    border: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+}
+.links{
+    margin-top:8px;
+    text-align:right;
+   
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4267B2;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: green;
+    color:white;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:20px;
+    color:whitesmoke;
+}
+.loginbox a:hover{
+    color: #ffc107;
+}
+
+
